@@ -1,0 +1,17 @@
+@charset "utf-8";
+/* ============================================================
+ * [MODULE] 顶部滑动导航  scroll 此scss每个页面最多只能引用一次 不然会导致编译后出现 多于的重复css代码 导致页面显示不正常
+ * 
+============================================================ */
+@import "../../global/global_src/global.size.scss";//全局的一些尺寸
+@import "../../global/global_src/global.func.scss";//全局函数
+.mui-bar-nav~.mui-content .mui-slider.mui-fullscreen{ top: pxToRem(90px); background-color: white; }
+.jt-content {
+	.mui-segmented-control.mui-scroll-wrapper{ height: pxToRem(120px); }
+	 .mui-segmented-control.mui-scroll-wrapper .mui-scroll{ height:  pxToRem(120px);}
+	.mui-segmented-control.mui-scroll-wrapper .mui-control-item{ line-height: pxToRem(120px); font-size: pxToRem(28px); padding:0  pxToRem(22px); }
+	.mui-fullscreen .mui-segmented-control~.mui-slider-group{ top: pxToRem(120px); }
+	.mui-segmented-control.mui-segmented-control-inverted .mui-control-item{ position: relative; }
+	.mui-segmented-control.mui-segmented-control-inverted .mui-control-item.mui-active:after{ content: ''; position:  absolute; display: block; background-color: #0062CC; bottom: -1px;  left: 0; right: 0; margin: 0 auto; width: 100%; height: 4px; transform: scaleY(.5); }
+	.mui-segmented-control.mui-segmented-control-inverted{ width: pxToRem(720px); padding: 0; margin: 0 auto; }
+ }

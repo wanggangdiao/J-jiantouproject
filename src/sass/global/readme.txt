@@ -1,0 +1,2 @@
+﻿此文件夹存放元件全局的scss 自动编译后生成global.css存放在build中  不建议单独引用global_src 里面的scss文件除函数及变量文件以外 ；
+在需要的页面的html中可以直接引用global.css即可，具体路径可到build中的css中查看

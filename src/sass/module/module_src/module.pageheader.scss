@@ -1,0 +1,17 @@
+@charset "utf-8";
+/* ============================================================
+ * [MODULE] 页面最顶部 标题栏   此scss每个页面最多只能引用一次 不然会导致编译后出现 多于的重复css代码 导致页面显示不正常
+ * 
+============================================================ */
+@import "../../global/global_src/global.size.scss";//全局的一些尺寸
+@import "../../global/global_src/global.func.scss";//全局函数
+$fontSize: pxToRem(34px);//顶部导航文字大小
+$navBarH: pxToRem(90px);//顶部导航的高度
+$navBarLineheight: pxToRem(90px);//顶部导航的行高
+$navBarIconSize:pxToRem(40px);//顶部导航icon大小
+$navBackgroundColor:#3681d0;//顶部导航背景颜色
+$navBarFontColor: white;//顶部导航文字颜色
+.jt-header{ height: $navBarH; background-color: $navBackgroundColor; line-height: $navBarLineheight;
+	.mui-title{ line-height: $navBarLineheight; font-size: $fontSize; color: $navBarFontColor;}
+	.mui-icon{ padding: 0; line-height: $navBarLineheight; font-size: $navBarIconSize; color: $navBarFontColor;}
+	}

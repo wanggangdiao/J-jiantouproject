@@ -1,0 +1,18 @@
+@charset "utf-8";
+/* ============================================================
+ * [GLOBAL] SCSS 全局scss 编译后会集成 @import 的所有scss 文件 
+ *  并最终编译成global.css 存到build的css中； 每个页面
+ * 都应引入global.css 
+ * 
+============================================================ */
+@import "global_src/global.size.scss";//全局的一些尺寸
+@import "global_src/global.func.scss";//全局函数
+@import "global_src/global.colors.scss";//全局的一些颜色
+@import "global_src/golbal.fontstyle.scss";//全局字体样式
+@import "global_src/global.mediaquery.scss";//全局媒体查询
+@import "global_src/global.grid.scss";//全局 栅格
+@import "global_src/global.base.scss";//全局基本常用类
+@import "global_src/global.plugins.scss";//全局插件
+
+
+

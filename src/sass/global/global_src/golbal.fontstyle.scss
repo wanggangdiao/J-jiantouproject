@@ -1,0 +1,11 @@
+@charset "utf-8";
+/* ============================================================
+ * LHUI - 全局 字体样式 包括 字体大小 颜色 行高 等
+ * 可在多个scss引入，不会产生多余代码
+============================================================ */
+$htmlFontSize: 75px;
+$baseFontSize:14px;
+$baseLineheight: 1.5!default;
+$baseFontfamily:"Helvetica Neue", Helvetica, Arial, sans-serif;
+
+

@@ -1,0 +1,12 @@
+@charset "utf-8";
+/* ============================================================
+ * [MODULE] 功能模块集合； 此文件包涵@import 的所有文件；引用时不能和module_src里面
+ * 的任何文件同是引用 否则会导致多余代码并可能是页面不正常
+ * 如果页面的组件很少  建议单独应用module_src里面的对应模块，不建议直接把
+ * 此模块直接引入，否则会代码冗余代码
+ * 
+============================================================ */
+@import "module_src/module.pageheader.scss";
+@import "module_src/module.pagefooter.scss";
+@import "module_src/module.top.scroll.nav.scss";
+@import "module_src/module.pulldown.icon.scss";

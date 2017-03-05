@@ -1,0 +1,24 @@
+@charset "utf-8";
+/* ============================================================
+ * LHUI - Global mediaquery 全局媒体查询 设置 html 跟字体大小
+ * 每个页面最多引用一次，否则产生多余代码，并出现未知错误
+============================================================ */
+$mediaScreenSize: 319px, 320px, 360px, 375px, 384px, 400px, 414px, 424px, 480px, 540px, 720px, 750px;//查询屏幕尺寸列表
+$colnum:10;//屏幕平分份数
+@each $size in $mediaScreenSize {
+	@if $size==319px {
+		@media only screen and (min-width: $size) {
+			html {
+				font-size: 32px;
+			}
+		}
+	}
+	@else {
+		@media only screen and (min-width: $size) {
+			html {
+				font-size: $size/$colnum;
+			}
+		}
+	}
+
+}

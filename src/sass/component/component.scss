@@ -1,0 +1,7 @@
+@charset "utf-8";
+/* ============================================================
+ * [COMPONENT] 不能同时引用component.scss和component_src里面的文件；否则会出现多余重复的css,可能导致显示不正常
+ * 
+============================================================ */
+@import "component_src/component.buttons.scss"
+

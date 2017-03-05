@@ -1,0 +1,15 @@
+@charset "utf-8";
+/* ============================================================
+ * [QUALITY] 质量模块  编译后生成quality.css存放在build的css中
+ * 
+============================================================ */
+@import "../module/module_src/module.pageheader.scss";//全局头部
+@import "../module/module_src/module.top.scroll.nav.scss";//全局头部滚动
+@import "../module/module_src/module.pulldown.icon.scss";//全局头部
+@import "quality_src/quality.leaders.scss"; //上级部门
+@import "quality_src/quality.check.scss";//审核 
+@import "quality_src/quality.report.scss"; //上报
+@import "quality_src/quality.releases.scss"; //下达
+@import "quality_src/quality.acceptance.scss"; //验收跟踪
+@import "quality_src/quality.statistics.scss";//统计
+@import "quality_src/quality.inspection.scss";  //数据检测

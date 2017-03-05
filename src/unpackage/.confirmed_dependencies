@@ -1,0 +1,33 @@
+{
+  "index.html": {
+    "href": "index.html",
+    "resources": [
+      "js/library/mui.js",
+      "css/assets/mui.min.css"
+    ],
+    "refer": [],
+    "priority": 0
+  },
+  "quality.html": {
+    "resources": [
+      "/js/access.js",
+      "js/sea.js",
+      "js/general.config.js",
+      "css/assets/mui.min.css",
+      "sass/global.func.scss",
+      "sass/global.basic.scss",
+      "css/fonts/mui.ttf",
+      "sass/global.grid.scss",
+      "js/library/dist/layer_mobile/need/layer.css",
+      "js/library/mui.pullToRefresh.material.js",
+      "js/library/mui.min.js",
+      "js/modules/quality.js",
+      "js/library/lodash.js",
+      "js/library/dist/layer_mobile/layer.js",
+      "js/modules/module.common.js",
+      "js/library/mui.pullToRefresh.js",
+      "js/library/jquery.js",
+      "js/access.js"
+    ]
+  }
+}
